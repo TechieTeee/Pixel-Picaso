@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Picaso</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Pixel Picaso</h1>
+
+<h2>Play Picaso and Make Your Own Pixel Art</h2>
+<h3>Choose the Size of the Canvas for Your Masterpiece</h3>
+
+<form id="sizePicker">
+    Grid Height:
+    <input type="number" id="inputHeight" name="height" min="1" value="1">
+    Grid Width:
+    <input type="number" id="inputWidth" name="width" min="1" value="1">
+    <input type="submit">
+</form>
+
+<h2>Pick Color</h2>
+<input type="color" id="colorPicker">
+
+<h4>Make Your Own Masterpiece and Paint the Canvas</h4>
+<table id="canvas"></table>
+
+<script src="designs.js"></script>
+</body>
+</html>

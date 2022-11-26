@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+body {
+    text-align: center;
+    background-image: url("https://media.giphy.com/media/gw3Pz3YQZREedZbG/giphy.gif");
+}
+
+h1 {
+    font-family: "Rubik Marker Hatch";
+    font-size: 70px;
+    margin: 0.2em;
+    color: #E0E722;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: #f535aa;
+
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 1em 0 0.25em;
+    color: #39ff14;
+    font-size: 25px;
+
+}
+
+h4 {
+    margin: 1em 0 0.25em;
+    color: #39ff14;
+    font-size: 40px;
+
+}
+
+form {
+    margin: 1em 0 0.25em;
+    color: #E0E722;
+    font-weight: bold;
+
+}
+
+table,
+tr,
+td {
+    border: 1px solid yellow;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
